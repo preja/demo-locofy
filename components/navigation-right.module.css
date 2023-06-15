@@ -1,0 +1,78 @@
+.explore,
+.hotels,
+.offers,
+.search {
+  position: relative;
+  display: inline-block;
+  height: 11.96px;
+  flex-shrink: 0;
+}
+.explore {
+  color: var(--color-cornflowerblue-100);
+  width: 35.13px;
+}
+.hotels,
+.offers,
+.search {
+  width: 32.14px;
+}
+.hotels,
+.offers {
+  width: 30.65px;
+}
+.offers {
+  width: 29.15px;
+}
+.navigationMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22.43px;
+}
+.hamburgerMenuIcon {
+  display: none;
+}
+.hamburgerMenuIcon,
+.notificationBellIcon {
+  position: relative;
+  width: 17.94px;
+  height: 17.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.unsplashd1upkifd04aIcon {
+  border-radius: 28.41px;
+  width: 26.91px;
+  height: 26.91px;
+  object-fit: cover;
+}
+.accountSection,
+.navigationRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8.97px;
+}
+.navigationRight {
+  justify-content: flex-end;
+  gap: 26.91px;
+  text-align: left;
+  font-size: 10.47px;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 768px) {
+  .navigationMenu {
+    display: none;
+  }
+  .hamburgerMenuIcon {
+    display: flex;
+  }
+}
+@media screen and (max-width: 428px) {
+  .navigationRight {
+    display: flex;
+  }
+}

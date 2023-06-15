@@ -1,0 +1,141 @@
+.sin,
+.singapore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 33.44px;
+  height: 20.93px;
+}
+.singapore {
+  top: 22.43px;
+  font-size: 10.47px;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  width: 53.82px;
+  height: 11.96px;
+}
+.fromDetails {
+  position: relative;
+  width: 53.82px;
+  height: 34.39px;
+}
+.h55m {
+  position: absolute;
+  top: 20.99px;
+  left: 17.71px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 49.08px;
+  height: 11.96px;
+}
+.durationChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 87.72px;
+  height: 17.94px;
+}
+.duration {
+  position: relative;
+  width: 87.72px;
+  height: 32.96px;
+  font-size: 10.47px;
+  color: var(--color-gray-100);
+}
+.lax,
+.losAngeles {
+  position: absolute;
+  top: 0;
+  left: 26.91px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 38.33px;
+  height: 20.93px;
+}
+.losAngeles {
+  top: 22.43px;
+  left: 0;
+  font-size: 10.47px;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+  width: 65.24px;
+  height: 11.96px;
+}
+.toDetails {
+  position: relative;
+  width: 65.24px;
+  height: 34.39px;
+  text-align: right;
+}
+.toAndFrom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.horizontalLine {
+  align-self: stretch;
+  position: relative;
+  border-top: 0.7px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  height: 0.75px;
+}
+.daysToGoContainer,
+.departsOn1 {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.departsOn1 {
+  text-transform: capitalize;
+  width: 152.42px;
+}
+.daysToGoContainer {
+  text-align: right;
+  width: 65.21px;
+}
+.departureDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10.47px;
+  color: var(--color-gray-100);
+}
+.flightMainContainer {
+  border-radius: 5.98px;
+  border: 0.7px solid var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  padding: 14.950791358947754px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-7);
+  text-align: left;
+  font-size: 17.94px;
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1440px) {
+  .flightMainContainer {
+    width: 520px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .horizontalLine {
+    width: 100%;
+  }
+  .flightMainContainer {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
